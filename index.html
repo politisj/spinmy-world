@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/three.js"></script>
+    <script src="js/datGui.js"></script>
+    <script src="js/orbitControls.js"></script>
+    <script src="js/stats.js"></script>
+    <script src="js/socket.io.js"></script>
+    <script src="js/mpu6050.js"></script>
+    <script src="js/main.js"></script>
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+        textarea {
+	        position: absolute;
+	        z-index: 200;
+	        top: 0px;
+	        left: 100px;
+	        columns: 5;
+            width: 421px;
+            height: 25px;
+            background-color: #1b287e;
+            color: #f3ff00;
+        }
+    </style>
+</head>
+<body>
+    <textarea id="textarea"></textarea>
+    <div id="stats"></div>
+    <div id="output"></div>
+</body>
+</html>
